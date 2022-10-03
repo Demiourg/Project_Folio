@@ -1,0 +1,43 @@
+/* COLORS
+#EFE8D7, #042A5A, #F4C4C4, #282B29, #7D2222, #DEB873, #D2D2D2, #388883 */
+/* FONTS 
+ATHENE */
+
+@font-face {
+  font-family: Athene;
+  src: url(../css/fonts/Athene.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+header {
+  color: #042a5a;
+}
+
+.headline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+}
+
+.sc20 {
+  padding-left: 16.4rem;
+  text-decoration: none;
+  color: #042a5a;
+}
+
+.Temporary-Folio {
+  padding-right: 16.4rem;
+  text-decoration: none;
+  color: #042a5a;
+}
